@@ -7,4 +7,4 @@ The book is available online and for free: http://mitpress.mit.edu/sicp/full-tex
 Flush your queue, [...], you must go and read this book next. ...
 
 -- Robert Martin alias Uncle Bob @ RailsConf 2010 --  
-(http://en.oreilly.com/rails2010/public/schedule/detail/14134)
+ http://en.oreilly.com/rails2010/public/schedule/detail/14134

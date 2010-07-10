@@ -1,0 +1,13 @@
+(define (<= x y)
+				(if (not(> x y)) #t #f)
+)
+
+(define (square x) (* x x))
+(define (square-sum x y) (+ (square x) (square y)))
+(define (result a b c)
+	(cond ((and (<= a c) (<= a b)) (square-sum b c))
+				((and (<= b a) (<= b c)) (square-sum a c))
+				((and (<= c a) (<= c b)) (square-sum a b))
+	)
+)
+(result 5 3 2)
